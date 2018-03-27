@@ -4,7 +4,7 @@
 overwatch-side-nav
 =========
 
-React component modeled after the Overwatch side navigation
+A React component modeling the Overwatch site side navigation
 
 ## Installation
 
