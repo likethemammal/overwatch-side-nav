@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import css from './Item.less'
 
-import general from '../../../../general-components/'
+import general from '@likethemammal/general-components'
 
 const { SVG } = general.components
 
