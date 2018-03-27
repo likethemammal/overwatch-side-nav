@@ -5,7 +5,7 @@
 @hover_padding_size: 1rem;
 
 .container {
-    composes: cf from '../../../../general-components/bin/general.css';
+    composes: cf from '@likethemammal/general-components/bin/general.css';
     position: relative;
     right: -100%;
     display: block;
@@ -20,11 +20,9 @@
         right: 0;
     }
 
-    box-sizing: border-box;
-}
-
-.container * {
-    box-sizing: border-box;
+    &, & * {
+        box-sizing: border-box;
+    }
 }
 
 .inner {
@@ -42,9 +40,9 @@
     height: @item_height;
     width: @icon_width;
     padding: 0 0.8rem;
-    background: rgba(0,0,0,0.1);
     border-radius: 3px 0 0 3px;
-    composes: container from '../../../../general-components/bin/components/SVG.css';
+    background: rgba(0,0,0,0.1);
+    composes: container from '@likethemammal/general-components/bin/components/SVG.css';
 }
 
 .label {
@@ -52,8 +50,10 @@
     line-height: @item_height;
     padding-right: 13px;
     padding-left: 13px;
+
     font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
-    composes: _font_general from '../../../../general-components/bin/general.css';
+    letter-spacing: 0.06rem;
+    font-family: 'Futura No 2 D DemiBold', Arial;
 }

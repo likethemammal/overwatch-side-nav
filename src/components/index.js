@@ -5,6 +5,8 @@ import css from './SideNav.less'
 import Item from './Item'
 import Scroll from './Scroll'
 
+import _ from 'underscore'
+
 export default class SideNav extends Component {
     static defaultProps = {
         className: css.container,
@@ -22,7 +24,8 @@ export default class SideNav extends Component {
 
     render() {
 
-        const { className, items, ids, ...rest } = this.props
+        const { className, items, ...rest } = this.props
+        const ids = _.pluck(items, 'id')
         const { hash } = this.state
         const state = {
             hash,

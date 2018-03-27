@@ -4,9 +4,6 @@ import ReactDOM from 'react-dom'
 import SVG_MATERIAL_FAVORITE from 'svg-icon/dist/svg/material/favorite.svg'
 import SVG_MATERIAL_REFRESH from 'svg-icon/dist/svg/material/refresh.svg'
 
-import _ from 'underscore'
-
-
 const items = [
     {
         label: 'Some Label',
@@ -22,8 +19,6 @@ const items = [
     },
 ]
 
-const ids = _.pluck(items, 'id')
-
 import OverwatchSideNav from '../lib'
 
 
@@ -31,7 +26,6 @@ ReactDOM.render(
     <div>
         <OverwatchSideNav
             items={items}
-            ids={ids}
         />
     </div>,
     document.getElementById('app')
