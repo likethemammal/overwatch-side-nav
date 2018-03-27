@@ -29,6 +29,11 @@ const config = {
                     'source-map-loader',
                 ],
             },
+            {
+                test: /\.(svg)$/,
+                use: ['raw-loader'],
+                // exclude: /(node_modules)/,
+            }
         ]
 
     },

@@ -7,6 +7,7 @@
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "raw-loader": "^0.5.1",
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "source-map-loader": "^0.2.3",
@@ -16,5 +17,9 @@
   "peerDependencies": {
     "react": ">=15.4.2",
     "react-dom": ">=15.4.2"
+  },
+  "dependencies": {
+    "svg-icon": "^0.8.2",
+    "underscore": "^1.8.3"
   }
 }

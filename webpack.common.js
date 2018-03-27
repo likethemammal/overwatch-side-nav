@@ -12,7 +12,6 @@ const css_loader = {
     options: {
         modules: true,
         localIdentName: '[name].[local]',
-        importLoaders: 1,
     },
 }
 
@@ -24,6 +23,7 @@ const postcss_loader = {
                 autoprefixer('last 10 versions', 'ie 10'),
                 pixrem({
                     rootValue: 10,
+                    replace: true,
                 }),
             ]
         }
@@ -79,11 +79,11 @@ const config = {
                 use: ["json-loader"],
                 exclude: /(node_modules)/,
             },
-            {
-                test: /\.(svg)$/,
-                use: ['raw-loader'],
-                exclude: /(node_modules)/,
-            }
+            // {
+            //     test: /\.(svg)$/,
+            //     use: ['raw-loader'],
+            //     exclude: /(node_modules)/,
+            // }
         ]
 
     },

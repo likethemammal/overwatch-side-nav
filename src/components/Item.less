@@ -1,0 +1,59 @@
+@import "../colors.less";
+
+@item_height: 4.0rem;
+@icon_width: 4.3rem;
+@hover_padding_size: 1rem;
+
+.container {
+    composes: cf from '../../../../general-components/bin/general.css';
+    position: relative;
+    right: -100%;
+    display: block;
+    margin-left: -@icon_width - @hover_padding_size;
+    padding-left: @hover_padding_size;
+    padding-bottom: @hover_padding_size - 0.7rem;
+    color: inherit;
+
+    transition: right 275ms ease;
+
+    &:hover {
+        right: 0;
+    }
+
+    box-sizing: border-box;
+}
+
+.container * {
+    box-sizing: border-box;
+}
+
+.inner {
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+
+    transition: 100ms linear;
+}
+
+.icon_container {
+    float: left;
+}
+
+.icon {
+    height: @item_height;
+    width: @icon_width;
+    padding: 0 0.8rem;
+    background: rgba(0,0,0,0.1);
+    border-radius: 3px 0 0 3px;
+    composes: container from '../../../../general-components/bin/components/SVG.css';
+}
+
+.label {
+    display: inline-block;
+    line-height: @item_height;
+    padding-right: 13px;
+    padding-left: 13px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    composes: _font_general from '../../../../general-components/bin/general.css';
+}
