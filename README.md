@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/likethemammal/overwatch-side-nav.svg?branch=master)](https://travis-ci.org/likethemammal/open-source-react-component-example)
-[![Coverage Status](https://coveralls.io/repos/github/likethemammal/overwatch-side-nav/badge.svg?branch=master)](https://coveralls.io/github/likethemammal/open-source-react-component-example?branch=master)
+[![Build Status](https://travis-ci.org/likethemammal/overwatch-side-nav.svg?branch=master)](https://travis-ci.org/likethemammal/overwatch-side-nav)
+[![Coverage Status](https://coveralls.io/repos/github/likethemammal/overwatch-side-nav/badge.svg?branch=master)](https://coveralls.io/github/likethemammal/overwatch-side-nav?branch=master)
 
 overwatch-side-nav
 =========
