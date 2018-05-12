@@ -32,14 +32,14 @@ Check out [example/index.js](example/index.js) for working example.
 
 | name        | required | type           | default  | desc 
 --- |--- | --- | --- | --- |
-| items | **`X`** | array | null | array of objects, with required keys `id`, `label`, and `icon` |
-| &nbsp;*item*.**id** | **`X`** | string | null | HTML id for the navigation item, the item will be shown as active when `id` is same as `window.location.hash` |
+| items | **`X`** | array | null | Array of objects, with required keys `id`, `label`, and `icon` |
+| &nbsp;*item*.**id** | **`X`** | string | null | HTML id for the navigation item. The item will be shown as active when `id` is same as `window.location.hash` |
 | &nbsp;*item*.**label** | **`X`** | string | null | Label for the navigation item, displayed in uppercase |
 | &nbsp;*item*.**icon** | **`X`** | `<svg>` | null | Icon for the navigation, positioned to the left of the label. Must be a valid SVG |
-| defaultColor | | string | #323C50 | Background color for navigation items that aren't active. Should visually contrast the `textColor`. |
-| activeColor | | string | #FFFFFF | Background color for the active navigation item. |
-| textColor | | string | #00C3FF | Color for the navigation item `label` and the fill color for the `icon` SVG |
-| zIndex | | number | 1000000 | CSS `z-index` value the navigation. Used in conjunction with `position: fixed`, to float SideNav above (or below) the page content |
+| defaultColor | | string | #323C50 | Background color for navigation items that aren't active. Should visually contrast `textColor` |
+| activeColor | | string | #FFFFFF | Background color for the active navigation item |
+| textColor | | string | #00C3FF | Color for the navigation items' `label` and the fill color for the `icon` SVG |
+| zIndex | | number | 1000000 | CSS `z-index` for the navigation. Used with `position: fixed`, to float SideNav above (or below) the page |
 
 ## Development
 
