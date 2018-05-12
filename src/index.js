@@ -1,1 +1,1 @@
-module.exports = require('./components').default
+export default from './components/SideNav'

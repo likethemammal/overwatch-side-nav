@@ -1,5 +1,3 @@
-@import "../colors.less";
-
 @item_height: 4.0rem;
 @icon_width: 4.3rem;
 @hover_padding_size: 1rem;
@@ -46,14 +44,12 @@
 }
 
 .label {
+    composes: _font_general from '@likethemammal/overwatch-general/lib/general.css';
     display: inline-block;
     line-height: @item_height;
     padding-right: 13px;
     padding-left: 13px;
 
     font-size: 2rem;
-    text-transform: uppercase;
     text-align: center;
-    letter-spacing: 0.06rem;
-    font-family: 'Futura No 2 D DemiBold', Arial;
 }

@@ -28,7 +28,8 @@
     "README.md"
   ],
   "dependencies": {
-    "@likethemammal/general-components": "^0.1.12",
+    "@likethemammal/general-components": "^0.1.15",
+    "@likethemammal/overwatch-general": "^0.1.18",
     "underscore": "^1.8.3"
   },
   "devDependencies": {

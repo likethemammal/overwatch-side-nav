@@ -10,6 +10,7 @@ import _ from 'underscore'
 export default class SideNav extends Component {
     static defaultProps = {
         className: css.container,
+        zIndex: 1000000,
     }
 
     state = {
@@ -24,15 +25,21 @@ export default class SideNav extends Component {
 
     render() {
 
-        const { className, items, ...rest } = this.props
+        const { className, items, zIndex, ...rest } = this.props
         const ids = _.pluck(items, 'id')
         const { hash } = this.state
         const state = {
             hash,
             onHashChange: this.onHashChange,
         }
+        const containerStyles = {
+            zIndex,
+        }
 
-        return <div className={className}>
+        return <div
+            className={className}
+            style={containerStyles}
+        >
             <Scroll
                 {...{ids}}
                 {...state}

@@ -5,7 +5,7 @@ import general from '@likethemammal/general-components'
 
 const shared = general.__tests__._shared.tests
 
-import SideNav from '../../components/'
+import SideNav from '../../'
 
 const items = [
     {
@@ -24,7 +24,7 @@ const items = [
 
 
 describe('SideNav', () => {
-    // Render a checkbox with label in the document
+
     const component = shallow(
         <SideNav
             items={items}
