@@ -20,6 +20,7 @@ export const id = props => props.id
 export const activeColor = props => props.activeColor
 export const defaultColor = props => props.defaultColor
 export const textColor = props => props.textColor
+
 export const hovered = (props, state) => state.hovered
 
 export const currentHash = createSelector(
