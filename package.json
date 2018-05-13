@@ -1,6 +1,6 @@
 {
   "name": "overwatch-side-nav",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A React component modeling the Official Overwatch site side-navigation",
   "author": "Chris Dolphin",
   "license": "Apache-2.0",
