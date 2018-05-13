@@ -9,9 +9,12 @@ import {
 
     ids as _ids,
     lastId as _lastId,
-    newId as _newId,
     hasHashChanged as _hasHashChanged,
 } from './units'
+
+import {
+    newId as _newId,
+} from './units.web'
 
 export const windowHash = props => props.windowHash
 

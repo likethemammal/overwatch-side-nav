@@ -4,7 +4,7 @@ import _ from 'underscore'
 
 import {
     isAtBottomOfPage,
-} from '../units'
+} from '../units.web'
 
 import {
     lastHash as _lastHash,
