@@ -42,7 +42,6 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Scroll
-          hash=""
           ids={
             Array [
               "some_id",
@@ -50,6 +49,7 @@ ShallowWrapper {
             ]
           }
           onHashChange={[Function]}
+          windowHash=""
         />,
         Array [
           <Item
@@ -61,12 +61,12 @@ ShallowWrapper {
             activeColor="#00c3ff"
             className={undefined}
             defaultColor="#323c50"
-            hash=""
             icon={Array []}
             id="some_id"
             label="Label"
             onHashChange={[Function]}
             textColor="white"
+            windowHash=""
           />,
           <Item
             Component={
@@ -77,12 +77,12 @@ ShallowWrapper {
             activeColor="#00c3ff"
             className={undefined}
             defaultColor="#323c50"
-            hash=""
             icon={Array []}
             id="slug"
             label="Test"
             onHashChange={[Function]}
             textColor="white"
+            windowHash=""
           />,
         ],
       ],
@@ -98,12 +98,12 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "hash": "",
           "ids": Array [
             "some_id",
             "slug",
           ],
           "onHashChange": [Function],
+          "windowHash": "",
         },
         "ref": null,
         "rendered": null,
@@ -120,12 +120,12 @@ ShallowWrapper {
           "activeColor": "#00c3ff",
           "className": undefined,
           "defaultColor": "#323c50",
-          "hash": "",
           "icon": Array [],
           "id": "some_id",
           "label": "Label",
           "onHashChange": [Function],
           "textColor": "white",
+          "windowHash": "",
         },
         "ref": null,
         "rendered": null,
@@ -142,12 +142,12 @@ ShallowWrapper {
           "activeColor": "#00c3ff",
           "className": undefined,
           "defaultColor": "#323c50",
-          "hash": "",
           "icon": Array [],
           "id": "slug",
           "label": "Test",
           "onHashChange": [Function],
           "textColor": "white",
+          "windowHash": "",
         },
         "ref": null,
         "rendered": null,
@@ -164,7 +164,6 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Scroll
-            hash=""
             ids={
               Array [
                 "some_id",
@@ -172,6 +171,7 @@ ShallowWrapper {
               ]
             }
             onHashChange={[Function]}
+            windowHash=""
           />,
           Array [
             <Item
@@ -183,12 +183,12 @@ ShallowWrapper {
               activeColor="#00c3ff"
               className={undefined}
               defaultColor="#323c50"
-              hash=""
               icon={Array []}
               id="some_id"
               label="Label"
               onHashChange={[Function]}
               textColor="white"
+              windowHash=""
             />,
             <Item
               Component={
@@ -199,12 +199,12 @@ ShallowWrapper {
               activeColor="#00c3ff"
               className={undefined}
               defaultColor="#323c50"
-              hash=""
               icon={Array []}
               id="slug"
               label="Test"
               onHashChange={[Function]}
               textColor="white"
+              windowHash=""
             />,
           ],
         ],
@@ -220,12 +220,12 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "hash": "",
             "ids": Array [
               "some_id",
               "slug",
             ],
             "onHashChange": [Function],
+            "windowHash": "",
           },
           "ref": null,
           "rendered": null,
@@ -242,12 +242,12 @@ ShallowWrapper {
             "activeColor": "#00c3ff",
             "className": undefined,
             "defaultColor": "#323c50",
-            "hash": "",
             "icon": Array [],
             "id": "some_id",
             "label": "Label",
             "onHashChange": [Function],
             "textColor": "white",
+            "windowHash": "",
           },
           "ref": null,
           "rendered": null,
@@ -264,12 +264,12 @@ ShallowWrapper {
             "activeColor": "#00c3ff",
             "className": undefined,
             "defaultColor": "#323c50",
-            "hash": "",
             "icon": Array [],
             "id": "slug",
             "label": "Test",
             "onHashChange": [Function],
             "textColor": "white",
+            "windowHash": "",
           },
           "ref": null,
           "rendered": null,

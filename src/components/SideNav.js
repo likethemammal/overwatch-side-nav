@@ -5,7 +5,9 @@ import css from './SideNav.less'
 import Item from './Item'
 import Scroll from './Scroll'
 
-import _ from 'underscore'
+import {
+    ids as _ids,
+} from '../selectors'
 
 export default class SideNav extends Component {
     static defaultProps = {
@@ -14,22 +16,22 @@ export default class SideNav extends Component {
     }
 
     state = {
-        hash: window.location.hash,
+        windowHash: window.location.hash,
     }
 
-    onHashChange = (hash) => {
+    onHashChange = (windowHash) => {
         this.setState({
-            hash,
+            windowHash,
         })
     }
 
     render() {
 
         const { className, items, zIndex, ...rest } = this.props
-        const ids = _.pluck(items, 'id')
-        const { hash } = this.state
-        const state = {
-            hash,
+        const ids = _ids(this.props)
+        const { windowHash } = this.state
+        const shared_state = {
+            windowHash,
             onHashChange: this.onHashChange,
         }
         const containerStyles = {
@@ -42,11 +44,11 @@ export default class SideNav extends Component {
         >
             <Scroll
                 {...{ids}}
-                {...state}
+                {...shared_state}
             />
             {items.map((item, i) => <Item
                 key={i}
-                {...state}
+                {...shared_state}
                 {...rest}
                 {...item}
             />)}
