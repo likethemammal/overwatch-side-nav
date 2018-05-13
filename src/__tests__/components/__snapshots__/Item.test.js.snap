@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item Snapshot 0 should match 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Item
+    activeColor="#00c3ff"
+    className={undefined}
+    defaultColor="#323c50"
+    icon="text-file-stub"
+    id="item_id"
+    label="item_label"
+    onHashChange={[Function]}
+    textColor="white"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className={undefined}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#323c50",
+            "color": "white",
+          }
+        }
+      >
+        <div
+          className={undefined}
+        >
+          <t
+            className="SVG-container"
+            raw="text-file-stub"
+            style={
+              Object {
+                "fill": "white",
+              }
+            }
+          />
+        </div>
+        <div
+          className={undefined}
+        >
+          item_label
+        </div>
+      </div>,
+      "className": undefined,
+      "href": "/#item_id",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className={undefined}
+          >
+            <t
+              className="SVG-container"
+              raw="text-file-stub"
+              style={
+                Object {
+                  "fill": "white",
+                }
+              }
+            />
+          </div>,
+          <div
+            className={undefined}
+          >
+            item_label
+          </div>,
+        ],
+        "className": undefined,
+        "onMouseEnter": [Function],
+        "onMouseLeave": [Function],
+        "style": Object {
+          "backgroundColor": "#323c50",
+          "color": "white",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <t
+              className="SVG-container"
+              raw="text-file-stub"
+              style={
+                Object {
+                  "fill": "white",
+                }
+              }
+            />,
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "SVG-container",
+              "raw": "text-file-stub",
+              "style": Object {
+                "fill": "white",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "item_label",
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": "item_label",
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "a",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className={undefined}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#323c50",
+              "color": "white",
+            }
+          }
+        >
+          <div
+            className={undefined}
+          >
+            <t
+              className="SVG-container"
+              raw="text-file-stub"
+              style={
+                Object {
+                  "fill": "white",
+                }
+              }
+            />
+          </div>
+          <div
+            className={undefined}
+          >
+            item_label
+          </div>
+        </div>,
+        "className": undefined,
+        "href": "/#item_id",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className={undefined}
+            >
+              <t
+                className="SVG-container"
+                raw="text-file-stub"
+                style={
+                  Object {
+                    "fill": "white",
+                  }
+                }
+              />
+            </div>,
+            <div
+              className={undefined}
+            >
+              item_label
+            </div>,
+          ],
+          "className": undefined,
+          "onMouseEnter": [Function],
+          "onMouseLeave": [Function],
+          "style": Object {
+            "backgroundColor": "#323c50",
+            "color": "white",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <t
+                className="SVG-container"
+                raw="text-file-stub"
+                style={
+                  Object {
+                    "fill": "white",
+                  }
+                }
+              />,
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "SVG-container",
+                "raw": "text-file-stub",
+                "style": Object {
+                  "fill": "white",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "item_label",
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": "item_label",
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "a",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -28,7 +28,6 @@ export default class SideNav extends Component {
     render() {
 
         const { className, items, zIndex, ...rest } = this.props
-        const ids = _ids(this.props)
         const { windowHash } = this.state
         const shared_state = {
             windowHash,
@@ -43,7 +42,7 @@ export default class SideNav extends Component {
             style={containerStyles}
         >
             <Scroll
-                {...{ids}}
+                {...{items}}
                 {...shared_state}
             />
             {items.map((item, i) => <Item

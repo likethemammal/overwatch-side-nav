@@ -9,18 +9,12 @@ ShallowWrapper {
     items={
       Array [
         Object {
-          "Component": <div>
-            test
-          </div>,
-          "icon": Array [],
+          "icon": "svg-file-stub",
           "id": "some_id",
           "label": "Label",
         },
         Object {
-          "Component": <div>
-            The fuck
-          </div>,
-          "icon": Array [],
+          "icon": "svg-file-stub",
           "id": "slug",
           "label": "Test",
         },
@@ -42,10 +36,18 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Scroll
-          ids={
+          items={
             Array [
-              "some_id",
-              "slug",
+              Object {
+                "icon": "svg-file-stub",
+                "id": "some_id",
+                "label": "Label",
+              },
+              Object {
+                "icon": "svg-file-stub",
+                "id": "slug",
+                "label": "Test",
+              },
             ]
           }
           onHashChange={[Function]}
@@ -53,15 +55,10 @@ ShallowWrapper {
         />,
         Array [
           <Item
-            Component={
-              <div>
-                test
-              </div>
-            }
             activeColor="#00c3ff"
             className={undefined}
             defaultColor="#323c50"
-            icon={Array []}
+            icon="svg-file-stub"
             id="some_id"
             label="Label"
             onHashChange={[Function]}
@@ -69,15 +66,10 @@ ShallowWrapper {
             windowHash=""
           />,
           <Item
-            Component={
-              <div>
-                The fuck
-              </div>
-            }
             activeColor="#00c3ff"
             className={undefined}
             defaultColor="#323c50"
-            icon={Array []}
+            icon="svg-file-stub"
             id="slug"
             label="Test"
             onHashChange={[Function]}
@@ -98,9 +90,17 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "ids": Array [
-            "some_id",
-            "slug",
+          "items": Array [
+            Object {
+              "icon": "svg-file-stub",
+              "id": "some_id",
+              "label": "Label",
+            },
+            Object {
+              "icon": "svg-file-stub",
+              "id": "slug",
+              "label": "Test",
+            },
           ],
           "onHashChange": [Function],
           "windowHash": "",
@@ -114,13 +114,10 @@ ShallowWrapper {
         "key": "0",
         "nodeType": "class",
         "props": Object {
-          "Component": <div>
-            test
-          </div>,
           "activeColor": "#00c3ff",
           "className": undefined,
           "defaultColor": "#323c50",
-          "icon": Array [],
+          "icon": "svg-file-stub",
           "id": "some_id",
           "label": "Label",
           "onHashChange": [Function],
@@ -136,13 +133,10 @@ ShallowWrapper {
         "key": "1",
         "nodeType": "class",
         "props": Object {
-          "Component": <div>
-            The fuck
-          </div>,
           "activeColor": "#00c3ff",
           "className": undefined,
           "defaultColor": "#323c50",
-          "icon": Array [],
+          "icon": "svg-file-stub",
           "id": "slug",
           "label": "Test",
           "onHashChange": [Function],
@@ -164,10 +158,18 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Scroll
-            ids={
+            items={
               Array [
-                "some_id",
-                "slug",
+                Object {
+                  "icon": "svg-file-stub",
+                  "id": "some_id",
+                  "label": "Label",
+                },
+                Object {
+                  "icon": "svg-file-stub",
+                  "id": "slug",
+                  "label": "Test",
+                },
               ]
             }
             onHashChange={[Function]}
@@ -175,15 +177,10 @@ ShallowWrapper {
           />,
           Array [
             <Item
-              Component={
-                <div>
-                  test
-                </div>
-              }
               activeColor="#00c3ff"
               className={undefined}
               defaultColor="#323c50"
-              icon={Array []}
+              icon="svg-file-stub"
               id="some_id"
               label="Label"
               onHashChange={[Function]}
@@ -191,15 +188,10 @@ ShallowWrapper {
               windowHash=""
             />,
             <Item
-              Component={
-                <div>
-                  The fuck
-                </div>
-              }
               activeColor="#00c3ff"
               className={undefined}
               defaultColor="#323c50"
-              icon={Array []}
+              icon="svg-file-stub"
               id="slug"
               label="Test"
               onHashChange={[Function]}
@@ -220,9 +212,17 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "ids": Array [
-              "some_id",
-              "slug",
+            "items": Array [
+              Object {
+                "icon": "svg-file-stub",
+                "id": "some_id",
+                "label": "Label",
+              },
+              Object {
+                "icon": "svg-file-stub",
+                "id": "slug",
+                "label": "Test",
+              },
             ],
             "onHashChange": [Function],
             "windowHash": "",
@@ -236,13 +236,10 @@ ShallowWrapper {
           "key": "0",
           "nodeType": "class",
           "props": Object {
-            "Component": <div>
-              test
-            </div>,
             "activeColor": "#00c3ff",
             "className": undefined,
             "defaultColor": "#323c50",
-            "icon": Array [],
+            "icon": "svg-file-stub",
             "id": "some_id",
             "label": "Label",
             "onHashChange": [Function],
@@ -258,13 +255,10 @@ ShallowWrapper {
           "key": "1",
           "nodeType": "class",
           "props": Object {
-            "Component": <div>
-              The fuck
-            </div>,
             "activeColor": "#00c3ff",
             "className": undefined,
             "defaultColor": "#323c50",
-            "icon": Array [],
+            "icon": "svg-file-stub",
             "id": "slug",
             "label": "Test",
             "onHashChange": [Function],

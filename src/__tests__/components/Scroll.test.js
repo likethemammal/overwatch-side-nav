@@ -5,7 +5,9 @@ import general from '@likethemammal/general-components'
 
 const shared = general.__tests__._shared.tests
 
-import SideNav from '../../'
+import Scroll from '../../components/Scroll'
+
+const mock_onHashChange = jest.fn()
 
 const items = [
     {
@@ -21,11 +23,12 @@ const items = [
 ]
 
 
-describe('SideNav', () => {
+describe('Scroll', () => {
 
     const component = shallow(
-        <SideNav
+        <Scroll
             items={items}
+            onHashChange={mock_onHashChange}
         />
     )
 
