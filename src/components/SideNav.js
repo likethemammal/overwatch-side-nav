@@ -5,10 +5,6 @@ import css from './SideNav.less'
 import Item from './Item'
 import Scroll from './Scroll'
 
-import {
-    ids as _ids,
-} from '../selectors'
-
 export default class SideNav extends Component {
     static defaultProps = {
         className: css.container,

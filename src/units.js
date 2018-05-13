@@ -1,7 +1,4 @@
 import _ from 'underscore'
-import {
-    BOTTOM_SCROLL_PADDING,
-} from './constants'
 
 export const idToHash = (id) => `#${id}`
 
@@ -20,9 +17,9 @@ export const ids = (items) => _.pluck(items, 'id')
 
 
 //Scroll
-export const isAtBottomOfPage = () => document.body.scrollHeight <=
+export const isAtBottomOfPage = (bottomPadding) => document.body.scrollHeight <=
     document.body.scrollTop +
-    window.innerHeight + BOTTOM_SCROLL_PADDING
+    window.innerHeight + bottomPadding
 
 export const lastId = (ids) => ids[ids.length - 1]
 

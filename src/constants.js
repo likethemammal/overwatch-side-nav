@@ -1,1 +1,0 @@
-export const BOTTOM_SCROLL_PADDING = 150

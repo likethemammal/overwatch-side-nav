@@ -12,7 +12,13 @@ import {
     hasHashChanged as _hasHashChanged,
 } from '../selectors'
 
+const BOTTOM_SCROLL_PADDING = 150
+
 class Scroll extends Component {
+
+    static defaultProps = {
+        bottomPadding: BOTTOM_SCROLL_PADDING,
+    }
 
     constructor() {
         super()
@@ -22,10 +28,10 @@ class Scroll extends Component {
 
     _onScroll = () => {
 
-        const { onHashChange } = this.props
+        const { onHashChange, bottomPadding } = this.props
 
         const lastHash = _lastHash(this.props)
-        const isAtBottomOfPage = isAtBottomOfPage()
+        const isAtBottomOfPage = isAtBottomOfPage(bottomPadding)
 
         if (isAtBottomOfPage) {
             onHashChange(lastHash)
