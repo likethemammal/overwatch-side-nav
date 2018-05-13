@@ -5,6 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Scroll
+    bottomPadding={150}
     items={
       Array [
         Object {
@@ -20,6 +21,7 @@ ShallowWrapper {
       ]
     }
     onHashChange={[Function]}
+    windowHash="window_hash"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],

@@ -74,8 +74,8 @@ export const newHash = createSelector(
 )
 
 export const hasHashChanged = createSelector(
-    windowHash,
     newId,
     newHash,
+    windowHash,
     _hasHashChanged,
 )

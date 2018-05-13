@@ -36,6 +36,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Scroll
+          bottomPadding={150}
           items={
             Array [
               Object {
@@ -90,6 +91,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "bottomPadding": 150,
           "items": Array [
             Object {
               "icon": "svg-file-stub",
@@ -158,6 +160,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Scroll
+            bottomPadding={150}
             items={
               Array [
                 Object {
@@ -212,6 +215,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "bottomPadding": 150,
             "items": Array [
               Object {
                 "icon": "svg-file-stub",

@@ -33,4 +33,12 @@ describe('SideNav', () => {
         component
     ])
 
+    test('if onHashChange is called, windowHash state should be set to new hash', () => {
+        component.instance().onHashChange('new_hash')
+
+        expect(
+            component.state().windowHash
+        ).toEqual('new_hash')
+    })
+
 })

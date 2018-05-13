@@ -31,9 +31,9 @@ class Scroll extends Component {
         const { onHashChange, bottomPadding } = this.props
 
         const lastHash = _lastHash(this.props)
-        const isAtBottomOfPage = isAtBottomOfPage(bottomPadding)
+        const isAtBottom = isAtBottomOfPage(bottomPadding)
 
-        if (isAtBottomOfPage) {
+        if (isAtBottom) {
             onHashChange(lastHash)
             return
         }
@@ -54,9 +54,7 @@ class Scroll extends Component {
         window.removeEventListener('scroll', this.onScroll)
     }
 
-
     render() {
-
         return <div/>
     }
 }
