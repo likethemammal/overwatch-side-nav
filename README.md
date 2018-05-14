@@ -26,15 +26,45 @@ When using CSS font-face, the font-family should match whats below:
     
 ## Usage
 
-Check out [example/index.js](example/index.js) for working example.
+Check out [example/index.js](example/index.js) for working example or below for exact usage.
+
+    import SideNav from 'overwatch-side-nav'
+    import SVG_MATERIAL_CHEVRON from 'svg-icon/dist/svg/material/chevron-left.svg'
+    
+    const items = [
+        {
+            label: 'Home',
+            id: 'top',
+            icon: SVG_MATERIAL_CHEVRON,
+        },
+        {
+            label: 'Highlights',
+            id: 'potg',
+            icon: SVG_MATERIAL_CHEVRON,
+        },
+        {
+            label: 'Settings',
+            id: 'settings',
+            icon: SVG_MATERIAL_CHEVRON,
+        },
+    ]
+    
+    class Example extends React.Component {
+
+        render() {    
+            return <SideNav
+                items={items}
+            />
+        }
+    }
 
 ### Props
 
 | name        | required | type           | default  | desc 
 --- |--- | --- | --- | --- |
 | items | **`X`** | array | null | Array of objects, with required keys `id`, `label`, and `icon` |
-| &nbsp;*item*.**id** | **`X`** | string | null | HTML id for the navigation item. The item will be shown as active when `id` is same as `window.location.hash` |
 | &nbsp;*item*.**label** | **`X`** | string | null | Label for the navigation item, displayed in uppercase |
+| &nbsp;*item*.**id** | **`X`** | string | null | HTML id for the navigation item. The item will be shown as active when `id` is same as `window.location.hash` |
 | &nbsp;*item*.**icon** | **`X`** | `<svg>` | null | Icon for the navigation, positioned to the left of the label. Must be a valid SVG |
 | defaultColor | | string | #323C50 | Background color for navigation items that aren't active. Should visually contrast `textColor` |
 | activeColor | | string | #FFFFFF | Background color for the active navigation item |
@@ -47,9 +77,16 @@ Check out [example/index.js](example/index.js) for working example.
   
 #### Running the example
 
+Install it:
+
+    cd example/; npm install
+    
+Run it while developing (in another terminal window):
+
     cd example/; npm run dev
     
-Open [http://localhost:8080/](http://localhost:8080/) to view example
+    
+Open [http://localhost:8080/](http://localhost:8080/) to see the running example
 
 
 ## Tests
