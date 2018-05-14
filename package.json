@@ -13,7 +13,10 @@
   },
   "homepage": "https://github.com/likethemammal/overwatch-side-nav#readme",
   "keywords": [
-    "react"
+    "react",
+    "overwatch",
+    "navigation",
+    "game-ui"
   ],
   "scripts": {
     "prepublishOnly": "npm run build",
