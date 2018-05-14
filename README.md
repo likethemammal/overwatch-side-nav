@@ -8,7 +8,7 @@ overwatch-side-nav
 [![npm Downloads](https://img.shields.io/npm/dm/overwatch-side-nav.svg)](https://www.npmjs.com/package/overwatch-side-nav)
 [![license](https://img.shields.io/github/license/likethemammal/overwatch-side-nav.svg)](https://github.com/likethemammal/overwatch-side-nav/blob/master/LICENSE)
 
-A React component modeling the Official Overwatch site side-navigation
+A React component modeling the [Official Overwatch website side-navigation](https://web.archive.org/web/20171214184846/https://playoverwatch.com/en-us/game/overview/).
 
 ![Example](example/example.png)
 
@@ -31,6 +31,7 @@ When using CSS font-face, the font-family should match whats below:
 Check out [example/index.js](example/index.js) for working example or below for exact usage.
 
     import SideNav from 'overwatch-side-nav'
+
     import SVG_MATERIAL_CHEVRON from 'svg-icon/dist/svg/material/chevron-left.svg'
     
     const items = [
