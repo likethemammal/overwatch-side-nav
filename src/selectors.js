@@ -65,20 +65,3 @@ export const lastHash = createSelector(
     lastId,
     _idToHash,
 )
-
-export const newId = createSelector(
-    ids,
-    _newId,
-)
-
-export const newHash = createSelector(
-    newId,
-    _idToHash,
-)
-
-export const hasHashChanged = createSelector(
-    newId,
-    newHash,
-    windowHash,
-    _hasHashChanged,
-)

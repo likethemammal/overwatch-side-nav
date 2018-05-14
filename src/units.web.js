@@ -23,14 +23,13 @@ export const newId = (ids) => {
         }
 
         const top = el.getBoundingClientRect().top
-        const isLastId = isLastId(ids, i)
-
+        const _isLastId = isLastId(ids, i)
 
         if (top <= 1) {
 
             prevId = id
 
-            if (isLastId) {
+            if (_isLastId) {
                 newId = id
             }
 
