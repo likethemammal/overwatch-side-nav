@@ -25,11 +25,6 @@ const items = [
         icon: SVG_MATERIAL_WC,
     },
     {
-        label: 'Credits',
-        id: 'credits',
-        icon: SVG_MATERIAL_FORMAT_ALIGN_RIGHT,
-    },
-    {
         label: 'Settings',
         id: 'settings',
         icon: SVG_MATERIAL_TUNE,
@@ -38,6 +33,11 @@ const items = [
         label: 'Heroes',
         id: 'heroes',
         icon: SVG_MATERIAL_STARS,
+    },
+    {
+        label: 'Credits',
+        id: 'credits',
+        icon: SVG_MATERIAL_FORMAT_ALIGN_RIGHT,
     },
 ]
 
