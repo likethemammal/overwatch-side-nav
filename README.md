@@ -10,6 +10,8 @@ overwatch-side-nav
 
 A React component modeling the Official Overwatch site side-navigation
 
+![Example](example/example.png)
+
 ## Install
 
 	npm install --save overwatch-side-nav
