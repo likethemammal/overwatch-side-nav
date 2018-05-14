@@ -100,7 +100,7 @@ Open [http://localhost:8080/](http://localhost:8080/) to see the running example
 
 Made with 🍊 by [Chris Dolphin](https://github.com/likethemammal)
 
-[![license](https://img.shields.io/github/license/likethemammal/overwatch-table.svg?style=flat-square)](https://github.com/likethemammal/overwatch-table/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/likethemammal/overwatch-side-nav.svg?style=flat-square)](https://github.com/likethemammal/overwatch-side-nav/blob/master/LICENSE)
 
 #### Fonts
 
