@@ -57,7 +57,7 @@ ShallowWrapper {
         </div>
       </div>,
       "className": undefined,
-      "href": "/#item_id",
+      "href": "#item_id",
       "onClick": [Function],
     },
     "ref": null,
@@ -184,7 +184,7 @@ ShallowWrapper {
           </div>
         </div>,
         "className": undefined,
-        "href": "/#item_id",
+        "href": "#item_id",
         "onClick": [Function],
       },
       "ref": null,

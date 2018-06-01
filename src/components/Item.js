@@ -63,7 +63,7 @@ class Item extends Component {
         }
 
         return <a
-            href={`/${currentHash}`}
+            href={currentHash}
             className={className}
             onClick={this.onClick}
         >
